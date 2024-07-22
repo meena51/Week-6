@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* ProductPage.css */
+
+.ProductPage {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ProductList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ProductItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.ProductItem button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ProductItem button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart.css */
+
+.Cart {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.CartItems {
+  list-style-type: none;
+  padding: 0;
+}
+
+.CartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
